@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Varela+Round&display=swap');
+
+
+/* menu INDEX*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Varela Round';
+}
+
+
+
+/*ESTRUTURA DO MENU INDEX*/
+
+.secao1 {
+    text-decoration: none;
+    background-color: rgb(18, 119, 89);
+    /* Cor de fundo branca */
+    border: 2px solid black;
+    /* Borda preta com 2px de largura */
+    border-radius: 15px;
+    /* Cantos arredondados com raio de 15px */
+    padding: 8px;
+    /* Espaçamento interno de 20px */
+    width: 100px;
+    /* Largura da caixa */
+    margin: 40px 0 0 50px;
+    /* Margens: superior 50px, direita 0, inferior 0, esquerda 50px */
+    text-align: left;
+}
+
+.menu_div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 15px;
+    height: 90px;
+}
+
+.logo {
+    width: 40%;
+    height: 75px;
+    text-align: center;
+    justify-content: center;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.logo img {
+    /*Logo da imagem*/
+    width: 180px;
+    height: 90px;
+    position: absolute;
+    top: 0;
+}
+
+.menu {
+    width: 60%;
+    text-align: center;
+    justify-content: center;
+    height: 85px;
+    margin-top: 16px;
+}
+
+.menu nav a {
+    color: #000000;
+    text-decoration: none;
+    padding-right: 40px;
+    font-size: 20px;
+    justify-content: center;
+    display: inline-block;
+    /* Garante que os links e as linhas fiquem na mesma linha */
+    position: relative;
+    /* Define a posição relativa para os links */
+}
+
+.menu a:hover {
+    color: #000000
+}
+
+.bodyindex {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Final_do_v%C3%B4lei_masculino_no_Maracan%C3%A3zinho_1039349-21082016-_mg_5524.jpg/1024px-Final_do_v%C3%B4lei_masculino_no_Maracan%C3%A3zinho_1039349-21082016-_mg_5524.jpg?20160821174508);
+    background-size: cover;
+    /* Ajusta o tamanho da imagem para cobrir toda a área do body */
+    background-repeat: no-repeat;
+    /* Evita que a imagem se repita */
+    background-position: center;
+    /* Centraliza a imagem */
+    height: 780px;
+}
+
+/* Estrutura do rodapé */
+.rodape {
+    background-color: black;
+    color: white;
+    height: auto;
+    width: 100%;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.rodape a {
+    text-decoration: none;
+    color: whitesmoke;
+    margin-bottom: 5px;
+}
+.rodape p {
+    margin-bottom: 5px;
+}
+.rodape-div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    align-items: stretch;
+    padding: 20px 0px 0px 10px;
+}
+.rodape-div-1, .rodape-div-2,
+ .rodape-div-3, .rodape-div-4 {
+    display: flex;
+    width: calc(100% / 4 - 20px);
+    padding: 30px;
+}
+.rodape span {
+    font-size: 15px;
+    color: rgb(210, 212, 44);
+}
+.rodape-direitos {
+    width: calc(100% - 20px);
+    background-color: brown;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+a.whatsapp-link {
+    color: green; /* cor do texto */
+    font-weight: bold; /* negrito */
+    text-decoration: none; /* remover sublinhado */
+}
+a.instagram-link {
+    color: #C13584; /* cor do texto */
+    font-weight: bold; /* negrito */
+    text-decoration: none; /* remover sublinhado */
+}
+a.twitter-link {
+    color: #043885; /* cor do texto */
+    font-weight: bold; /* negrito */
+    text-decoration: none; /* remover sublinhado */
+} 
+
+
+/*ESTRUTURA Página1*/
+
+.pag1 {
+    background-color: rgb(170, 204, 170);
+}
+
+.titulopg1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 20px;
+    width: 1330px;
+}
+
+.caixa-texto1 {
+    background-color: rgb(18, 119, 89);
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    width: 1230px;
+    margin: 20px 0 0 50px;
+    text-align: left;
+}
+
+.hpg1 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(10, 116, 24);
+    padding: 0px;
+    width: 1300px;
+    margin: 10px 10 0 20px;
+    text-align: center;
+}
+
+.videotutorial {
+    margin: 20px;
+}
+
+.tutorial {
+    margin: 20px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.creditos {
+    text-decoration: none;
+    font-size: small;
+    margin: 20px;
+    margin: 0px;
+    margin-left: 20px;
+}
+.imgpg1{
+    width: 630px;
+    height: 330px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+
+/*ESTRUTURA Pagina2*/
+
+.bodyform {
+    background-color: rgba(226, 226, 139, 0.733);
+    margin: 20px;
+}
+
+.h1pg2 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(122, 124, 3);
+    padding: 0px;
+    width: 800px;
+    margin: 10px 10 0 20px;
+    text-align: center;
+}
+
+.form {
+    margin: 20px;
+}
+.imgpg2{
+    width: 670px;
+    height: 430px;
+}
+
+
+
+/*ESTRUTURA Pagina3*/
+
+.bodypg3 {
+    background-color: rgba(255, 255, 160, 0.733);
+    margin: 20px;
+}
+
+.h1pg3 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(176, 179, 58);
+    padding: 20px;
+    width: 1330px;
+    margin: 0px 10 0 20px;
+    text-align: center;
+}
+
+.imgpg3 {
+    width: 500px;
+    height: auto;
+    flex-shrink: 0;
+    margin-left: 330px;
+}
+.imgpg3{
+    width: 1100px;
+    height: 530px;
+    margin-left: 50px;
+}
+
+.caixa-textopg3 {
+    background-color: rgb(230, 241, 69);
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    width: 1230px;
+    margin: 20px 0 0 50px;
+    text-align: left;
+}
+
+.form {
+    margin: 20px;
+}
+
+.creditospg3 {
+    text-decoration: none;
+    font-size: small;
+    margin: 0px;
+}
+
+.secao1pg3 {
+    font-size: larger;
+    text-decoration: none;
+    background-color: rgba(0, 247, 255, 0.685);
+    /* Cor de fundo branca */
+    border: 2px solid black;
+    /* Borda preta com 2px de largura */
+    border-radius: 15px;
+    /* Cantos arredondados com raio de 15px */
+    padding: 8px;
+    /* Espaçamento interno de 20px */
+    width: 100px;
+    /* Largura da caixa */
+    margin: 20px 0 0 0px;
+    /* Margens: superior 50px, direita 0, inferior 0, esquerda 50px */
+    text-align: left;
+}
+.ppg3 {
+    text-align: justify;
+}
+
+
+/*ESTRUTURA Pagina4*/
+
+.bodypg4{
+    background-color: rgb(70, 113, 207);
+    color: whitesmoke;
+}
+.h1pg4{
+    background-color: rgb(33, 49, 119);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    width: 1330px;
+    margin: 0px 10 0 20px;
+    text-align: center;
+}
+.caixa-textopg4{
+    background-color: rgb(67, 60, 126);
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    width: 1230px;
+    margin: 20px 0 0 50px;
+    text-align: left;
+}
+.secao1pg4{
+    font-size: larger;
+    text-decoration: none;
+    background-color: rgba(76, 38, 146, 0.753);
+    /* Cor de fundo branca */
+    border: 2px solid black;
+    /* Borda preta com 2px de largura */
+    border-radius: 15px;
+    /* Cantos arredondados com raio de 15px */
+    padding: 8px;
+    /* Espaçamento interno de 20px */
+    width: 100px;
+    /* Largura da caixa */
+    margin: 20px 0 0 0px;
+    /* Margens: superior 50px, direita 0, inferior 0, esquerda 50px */
+    text-align: left;
+}
+
+
+/*Página 5*/
+
+.bodyform {
+    background-color: rgba(56, 56, 55, 0.945);
+    margin: 20px;
+}
+
+.h1pg5 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 252);
+    padding: 10px;
+    width: 800px;
+    margin: 0px 0 0 0px;
+    text-align: center;
+}
+.p5 {
+    color: white;
+}

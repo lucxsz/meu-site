@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faça parte da nossa equipe!</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../icon/icone.png" type="image/x-icon">
+</head>
+
+<body class="bodyform">
+
+    <!--Título-->
+    <h1 class="h1pg2" align="Center">Formulário de Inscrição</h1>
+    <br />
+
+    <!--iMAGEM-->
+    <img class="imgpg2" src="../imagens/formulario.png" alt="venha fazer parte da nossa equipe">
+    <br />
+    <br />
+    <p align="justify">Por gentileza, preencha os campos abaixo:</p>
+    <br />
+    <hr />
+
+    <!--Sub título-->
+    <h2>Formulário</h2>
+
+    <!-- Formulario -->
+    <form class="form" action="meuarquivo.sql" method="post">
+
+        <p><strong>Nome completo:</strong> <input type="text" name="Nome" placeholder="Escreva seu nome" size="60" />
+        </p>
+
+        <p><strong>Telefone Celular:</strong> <input type="tel" name="Telefone" placeholder="(00) 00000-0000"
+                maxlength="11" />
+        </p>
+
+        <p><strong>Idade:</strong> <input type="number" name="Idade" /></p>
+
+        <p><strong>Data de Nasicmento:</strong> <input type="date" name="Data de Nascimento"></p>
+
+        <p><strong>E-mail:</strong> <input type="e-mail" placeholder="exemplo@email.com" name="e-mail" />
+        </p>
+
+        <p><strong>Genero:</strong>
+            <br />
+            <input type="radio" name="Genero" value="1" /> Feminino.
+            <br />
+            <input type="radio" name="Genero" value="2" /> Masculino.
+            <br />
+            <input type="radio" name="Genero" value="3" /> Outros.
+            <br />
+            <input type="radio" name="Genero" value="3" /> Prefiro não informar.
+            <br />
+        </p>
+        <br />
+
+        <!--Subtítulo-->
+        <h2>Qual sua posição?</h2>
+        <br />
+
+        <!--Escolha de Posições-->
+        <P class="pp2"> <strong>Posição:</strong>
+            <select>
+                <option value=""></option>
+                <option value="L">Líbero</option>
+                <option value="LE">Levantador</option>
+                <option value="P">Ponteiro</option>
+                <option value="C">Central</option>
+                <option value="O">Oposto</option>
+            </select>
+        </P>
+        <br />
+
+        <!--Caixa de Texto-->
+        <strong>
+            <p>Escreva a sua motivação para jogar vôlei:</p>
+        </strong>
+        <textarea id="textarea" rows="20" cols="50"></textarea>
+        <br />
+        <br />
+
+        <!--Declarações-->
+        <p><strong>Declaro que:</strong>
+            <br />
+            1- Estou ciente de que compartilhei minhas informações pessoais para fins de inscrição. <input
+                type="checkbox" name="termos" />
+            <br />
+            2- Concordo com o uso das minhas informações pessoais para fins de inscrição. <input type="checkbox"
+                name="termos" />
+        </p>
+        <br />
+
+        <!--Repor e Enviar-->
+        <input type="reset" name="Repor" />
+        <input type="submit" name="Enviar" />
+    </form>
+</body>
+
+</html>
